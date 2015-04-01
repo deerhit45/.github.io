@@ -1,14 +1,129 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>YOUR SITE TITLE</title>
-  <-- Add some style to your site, see http://getbootstrap.com for details -->
+ <html>
+ <head>
+  <title>Greg Gonyea Resume</title>
   <link rel="stylesheet"
   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <title>Greg Gonyea</title>
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+ </head>
+ <body>
+    <div class="row">
+        <div class="col-md-6">
+		<h1>Greg Gonyea</h1>
+		<p>Potato Chip Enthusiast and Hair care Enthusiast</p>
+        </div>
+        <div class="col-md-6">
+            <h1>Contact Info</h1>
+            <ul>
+                <li>Dr. Grey Gonjay</li>
+                <li>Nearest Cities Free Clinic</li>
+                <li>SupahAwesome@gagle.com</li>
+                <li>208 007 0584</li>
+            </ul>
+        </div>  
+    </div> 
+	<div class="well">
+    <p>I grew up in the tough cold streets of Compton. The Vermont Compton not that suburb in Cali. 
+	I now spend my days searching for the greats chip. I have tried many chips but not one has been able to satisfy my criteria.
+	In order to pay for my addiction to those delicious potatoes I spend most my days at the free clinic hooking people up with the best hair styles!
+	Below you will find a flip book of hairstyles I can give you if interested
+	</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Activate Bootstrap 3 Carousel via Data Attributes</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style type="text/css">
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+	margin: 20px;
+}
+</style>
 </head>
 <body>
-  <h1>YOUR SITE TITLE</h1>
-  <p>Your text blahblahbhalbha</p>
-  <p>Another paragraph!  Maybe more text!</p>
-</body>
-</html>
+<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+    	<!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+                <h2>Dreads</h2>
+         		<div class="carousel-caption">
+                  <h3>The hairstle of the rich and famous</h3>
+				  <img src="http://img.deseretnews.com/images/article/midres/83129/83129.jpg"/>
+				  <p>Reserved for true kings </p>
+                </div>
+            </div>
+            <div class="item">
+                <h2>Buzz cut</h2>
+                <div class="carousel-caption">
+                  <h3>Buzzy buzz</h3>
+				  <img src="data:image/jpeg;base64,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"/>
+                  <p>So fly</p>
+                </div>
+            </div>
+            <div class="item">
+                <h2>Sick Flow</h2>
+                <div class="carousel-caption">
+                  <h3>Waterfall stylie</h3>
+				  <img src="http://nbcprohockeytalk.files.wordpress.com/2011/03/smyth_ryan.jpg?w=320&h=272"/>
+                  <p>So Fresh.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+    <table class="table table-bordered">
+    <tr>
+        <th>Hair Type</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>Dreads</td>
+        <td>99.99</td>
+    </tr>
+    <tr>
+        <td>Buzz Cut</td>
+        <td>100.00</td>
+    </tr>
+    <tr>
+        <td>Sick Flow</td>
+        <td>50.99</td>
+    </tr>
+    </table>
+	<br>
+	<p>Feel free to contact me with any questions </p>
+ </body>
+ </html>
